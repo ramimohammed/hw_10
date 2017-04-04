@@ -24,6 +24,11 @@
 	}
  }
 
+for(i=0;i<b.length;i++){
+	if(b[i] %10 === 0){
+
+for (x=0,x<b.length,x=x+10);
+	}
 
 
 
@@ -63,8 +68,7 @@
   
   b.each do |element|
   	if(element %10 === 0)
-  		0.step(element,10) do |j|
-  	puts(j);
+  		puts(x);
   end
   end
   end
