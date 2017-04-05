@@ -17,9 +17,9 @@ var a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "je
 -----------------------------------------------------------------------------------------------------------------------------
 # ruby
 
- a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"];
+a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"];
 
-
+#a.each do |x|
 	(0..(a.length-1)).step(1) do|x|
 	if(x %2 != 0) 
 		puts (a[x].split("").reverse().join(""))
@@ -29,3 +29,6 @@ elsif
 puts(a[x]);
 end
 end
+
+
+ 
