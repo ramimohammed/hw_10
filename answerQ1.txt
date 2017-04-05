@@ -1,5 +1,55 @@
 // javascript
 
+
+a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"]
+    var j = 1;
+    for (i=0; i<a.length; i++){
+    if (j%3===0){
+  console.log (a[i].toUpperCase());
+}
+    else {
+    console.log(a[i]);
+ }
+    j++;
+}
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------
+# ruby
+
+
+a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"]
+    j=1
+    a.each do |x|
+    if j%3==0
+ puts x.upcase
+else
+    puts x
+end
+    j=j+1
+end
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------
+// print only the target word in upper case
+
+
+a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"]
+(2...(a.length)).step(3) do |i|
+	puts a[i].upcase
+end
+
+
+
+-------------------------------------------------------------------------------------------------------------------
+// j.s to print only the target word in upper case
+
+
 var a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"] ;
 
 for (i=2; i<a.length; i=i+3){
@@ -8,12 +58,3 @@ for (i=2; i<a.length; i=i+3){
 console.log(a[i].toUpperCase());
 
 }
-
-
--------------------------------------------------------------------------------------------------------------------
-# ruby
-
-a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"]
-(2...(a.length)).step(3) do |i|
-	puts a[i].upcase
-end
