@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+<h3>Type something:</h3>
+<textarea rows="4" cols="50" type="text" class="mirror" placeholder="textbox"></textarea><br><br><br>
+<textarea rows="4" cols="50" type="text" class="mirror" placeholder="textbox"></textarea><br><br>
+<textarea rows="4" cols="50" type="text" class="mirror" placeholder="textbox"></textarea>
+<textarea rows="4" cols="50" type="text" class="mirror" placeholder="textbox"></textarea>
+<textarea rows="4" cols="50" type="text" class="mirror" placeholder="textbox"></textarea>
+
+<script type="text/javascript" src="">
+ ('.mirror').on('keyup', function() {
+    ('.'+(this).attr('class')).val((this).val());
+});
+</script>
+</body>
+</html>
