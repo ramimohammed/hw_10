@@ -1,0 +1,69 @@
+// javascript
+
+ var b = [5, 10, 23, 10, 7, 9, 39, 16, 1, 12, 36, 20, 50];
+
+  for(i=0;i<b.length;i++){
+
+
+	if(b[i] %2 !==0)
+	console.log(b[i]*2);
+	
+	else 
+	 console.log(b[i]-1); 
+	  
+	  
+  }
+ 
+	if(b[i] %5 === 0){
+	console.log(Math.pow(b[i],2));
+	
+ }
+
+	if(b[i] %10 === 0){
+
+ for (x=0;x<b[i];x=x+10);
+}
+
+
+-------------------------------------------------------------------------------------------------------------------
+# ruby
+
+b = [5, 10, 23, 10, 7, 9, 39, 16, 1, 12, 36, 20, 50]
+
+
+
+  b.each do |x|
+    
+    
+  	if (x %2 != 0)
+  		puts (x*2)
+  end
+  end
+  
+  
+  
+  b.each do |x|
+  	if(x %2 == 0)
+  	puts(x-1);
+  end
+  end
+  
+  
+  
+  
+  b.each do |x|
+  	if(x %5 === 0)
+  	puts(x**2);
+  end
+  end
+  
+  
+  
+  b.each do |x|
+  	if(x %10 === 0)
+  		puts(x);
+  end
+  end
+  end
+
+  
