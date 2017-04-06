@@ -1,0 +1,66 @@
+// javascript
+
+
+a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"];
+   
+    var j = 1;
+    for (i= a.length-1 ;i>=0; i--){
+    if (j%3===0){
+  console.log (a[i].toUpperCase());
+}
+    else {
+    console.log(a[i]);
+ }
+    j++;
+}
+
+
+
+-------------------------------------------------------------------------------------------------------------------
+# ruby
+
+a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"];
+
+j=1;
+a.reverse_each do |x|
+
+ if j%3==0
+   
+    p x.upcase 
+    
+  else 
+    p x
+
+end
+j=j+1
+end
+
+ 
+
+
+
+ 
+------------------------------------------------------------------------------------------------------------------- 
+ // js  to retern just the target words
+ 
+ 
+ var a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"] ;
+
+for (i=a.length-3;  i>=0; i=i-3){
+
+
+console.log(a[i].toUpperCase());
+
+}
+
+
+-------------------------------------------------------------------------------------------------------------------
+# ruby to retern target words
+
+a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"]
+ 
+ (a.length-3).step(0, -3) do |i|
+ 
+ puts a[i].upcase
+ 
+ end
