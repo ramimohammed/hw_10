@@ -1,7 +1,0 @@
-
-
-# ruby
-
-ruby is one of the server side programing languge so we can't use it with html which is a clint side languge
-
- end
